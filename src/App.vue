@@ -7,14 +7,16 @@
     <my-search />
     <my-textarea />
     <my-select />
-    <footer class="bottom-0 absolute text-white text-l p-4">
+    <footer class="text-white text-l p-4">
       <a
         class="text-white mr-6"
         href="https://vueformulate.com/"
+        target="_blank"
       >Vue Formulate Docs</a>
       <a
         class="text-white"
         href="https://tailwindcss.com/"
+        target="_blank"
       >Tailwind.css Docs</a>
     </footer>
   </div>

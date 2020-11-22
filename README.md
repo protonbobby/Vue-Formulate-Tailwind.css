@@ -1,29 +1,31 @@
-# vue-formulate-app
+# Vue + Vue Formulate + Tailwindcss
 
 ## Project setup
+Create Vue app
 ```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn run serve
+vue create vue-formulate-tailwind-app
 ```
 
-### Compiles and minifies for production
+Install Vue Formulate
 ```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
+yarn add @braid/vue-formulate
 ```
 
-### Lints and fixes files
+Install Tailwindcss
 ```
-yarn run lint
+vue-ui
 ```
+1. Import this repo
+2. /Plugins > Add Plugin
+3. Search for "vue-cli-plugin-tailwind"
+4. Follow install wizard. Apply minimal config.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Configuration
+```
+vue-ui
+```
+1. /Configuration
+2. ESLint Configuration
+3. Set to: Strongly Recommended
+
+### Notes
